@@ -9,19 +9,32 @@ What is facial emotion recognition? Facial emotion recognition is the process of
 !source /content/theanoEnv/bin/activate theanoEnv
 
 clone the repo https://github.com/Snehadhole/emotion_detection
+
 cd emotion_detection
+
 !pip install -r requirements.txt
+
 !pip install tensorflow-gpu==2.0.0
+
 cd /content/Emotion-detection/src
+
 folder structure :
 Emotion-detection
+
      src
+	
        new folder
+	  
        dataset_prepare.py
+	  
        emotions.py
+	  
        haarcascade_frontalface_default.xml
+	  
        model.h5
+	  
 make all changes to emotions.py
+
 !python emotions.py --mode display
 
 # To resize the video size
